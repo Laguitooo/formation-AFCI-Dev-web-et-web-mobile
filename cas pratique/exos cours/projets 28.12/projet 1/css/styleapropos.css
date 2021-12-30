@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
     color: black;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    /* background-image: url(/img/codedynamique.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
 }
 
 a {
@@ -78,10 +83,67 @@ li a:hover {
 }
 
 .part1 {
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
     justify-content: center;
     width: auto;
     height: 400px;
+}
+
+.aproposs {
+    color: orange;
+}
+
+.divleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+}
+
+.divright {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+
+.imageronde {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    background-image: url(/img/codetube.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: circle();
+}
+
+.part2 {
+    margin-left: 50px;
+    width: 100%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part2 h2 {
+    width: 70%;
+    height: 50px;
+    color: orange;
+}
+
+.part2 p {
+    display: flex;
+    width: 70%;
+    height: 50px;
+    border: solid orange 2px;
+    border-radius: 10px;
+    text-align: justify;
+    justify-content: space-around;
 }
 
 footer {
