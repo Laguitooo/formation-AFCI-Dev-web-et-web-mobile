@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 815px;
+    height: 815px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: solid red 1px;
+    border-radius: 2.5px;
+    background-color: coral;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: solid red 1px;
+    border-radius: 2.5px;
+    margin: 2px;
+}
+
+.box1 div,
+.box2 div,
+.box3 div,
+.box4 div {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: solid black 1px;
+    border-radius: 2.5px;
+    background-color: cadetblue;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1:hover {
+    background-color: blueviolet;
+}
+
+.box1 div:hover {
+    background-color: blue;
+}
+
+.box2 {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.box3 {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.box3 :nth-child(2) {
+    height: auto;
+}
+
+.box3 div:nth-child(1) {
+    align-self: flex-end;
+}
+
+.box4 {
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+
+.box4 div:nth-child(2) {
+    width: auto;
+}
+
+.box4 div:nth-child(1) {
+    align-self: flex-start;
+}
+
+.box4 div:nth-child(3) {
+    align-self: flex-end;
+}

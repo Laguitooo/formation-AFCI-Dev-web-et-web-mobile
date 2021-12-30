@@ -1,0 +1,85 @@
+body {
+    background-color: #008cff;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.d1 {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.a {}
+
+.b {}
+
+.c {}
+
+h1 {
+    color: rgb(18, 106, 207);
+}
+
+p {
+    color: violet;
+}
+
+span {
+    color: rgb(255, 123, 0);
+}
+
+a {
+    color: yellow;
+}
+
+.a3>span {
+    color: rgb(13, 238, 13);
+}
+
+.a4 {
+    color: red;
+}
+
+.a3 span:nth-child(2) {
+    color: fuchsia;
+}
+
+.a3 span:first-child {}
+
+.a3 span:nth-child(2n+1) {
+    color: black
+}
+
+
+/* 
+.image1 {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://www.sirtom-du-laonnois.com/wp-content/uploads/2014/05/Logo-Ville-de-LAON.jpg);
+} */
+
+.image2 {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../IMG/Logo-Ville-de-LAON.jpg");
+}
+
+.image3 {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    background-size: contain;
+    background-image: url("../IMG/logo.jpg");
+}
