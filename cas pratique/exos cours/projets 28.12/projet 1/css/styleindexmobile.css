@@ -6,6 +6,16 @@
     color: black;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -15,15 +25,13 @@ header {
     width: auto;
     height: 70px;
     background-color: rgb(53, 199, 150);
-    justify-content: flex-end;
-    align-items: center;
 }
 
 h1 {
+    font-size: 20px;
     color: white;
     position: absolute;
-    left: 0;
-    margin-left: 50px;
+    margin-left: 10px;
     padding: 5px;
 }
 
@@ -37,22 +45,13 @@ menu {
     display: flex;
     width: auto;
     height: 50px;
-    /* border: solid rgb(14, 14, 13); */
     list-style-type: none;
-    justify-content: flex-end;
-    align-items: center;
-    text-align: center;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 li {
+    margin: 0px;
     color: black;
-    display: flex;
-    margin-right: 50px;
-    justify-content: center;
-    /* border: solid black; */
-    margin: 30px;
-    /* padding: 5px; */
 }
 
 .accueil {
@@ -60,28 +59,28 @@ li {
 }
 
 a {
-    padding: 10px;
+    margin: 0px;
+    font-size: 11px;
 }
 
 li a:hover {
     background-color: orange;
     color: white;
-    /* border: solid orange; */
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .accueil:hover {
     background-color: rgb(53, 199, 150);
     color: orange;
-    /* border: solid rgb(53, 199, 150); */
     border-radius: 10px;
 }
 
 .background {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     color: white;
     background-image: url("/img/fondcode2.jpg");
     background-size: cover;
@@ -90,35 +89,25 @@ li a:hover {
     background-repeat: no-repeat;
 }
 
-.titrebackground p {
-    display: flex;
-    /* align-items: flex-end; */
-    justify-content: center;
-    /* align-content: flex-end; */
-    font-size: 40px;
-    color: white;
-}
-
 .titrebackground {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 40px;
+    font-size: px;
+    color: white;
 }
 
-.titrebienvenue {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    font-size: 2px;
-    color: white;
+div.titrebackground p {
+    font-size: 30px;
+}
+
+p.titrebienvenue {
+    font-size: 20px;
 }
 
 .titrebackground a {
     display: flex;
-    width: 100px;
+    width: 50px;
     height: auto;
     justify-content: center;
     color: black;
@@ -139,23 +128,22 @@ li a:hover {
 
 .part2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: auto;
-    height: 300px;
+    height: 100%;
 }
 
 .part2 div {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    /* flex-direction: row; */
-    width: 50%;
-    height: 300px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     background-color: black;
-    /* border: solid white 1px; */
 }
 
 .imagleft {
+    display: flex;
+    flex-direction: column;
     background-image: url(/img/codedynamique.jpg);
     background-size: cover;
 }
@@ -181,7 +169,7 @@ li a:hover {
 
 .imagright a {
     display: flex;
-    width: 100px;
+    width: 50px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -203,8 +191,9 @@ li a:hover {
 
 .part3 {
     display: flex;
+    flex-direction: column;
     width: auto;
-    height: 300px;
+    height: 400px;
 }
 
 .part3 div {
@@ -214,9 +203,9 @@ li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 33.3%;
+    width: 100%;
     height: 260px;
-    /* border: solid black 2px; */
+    font-size: 12px;
 }
 
 .center a {
@@ -225,6 +214,7 @@ li a:hover {
     justify-content: center;
     height: 100%;
     width: 100%;
+    font-size: 12px;
 }
 
 .center {
@@ -237,8 +227,12 @@ li a:hover {
 
 footer {
     display: flex;
-    height: 80px;
+    height: 20px;
     background-color: rgb(53, 199, 150);
     justify-content: center;
     align-items: center;
+}
+
+footer p {
+    font-size: 8px;
 }

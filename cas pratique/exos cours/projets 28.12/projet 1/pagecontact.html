@@ -21,55 +21,62 @@
         </menu>
 
     </header><br>
-    <div class="formulaire">
+    <form class="formulaire">
         <h2>
-            Les formulaires
+            FORMULAIRE
         </h2><br>
-        <div>
-            <label for="non">NOM</label>
-            <input type="text" id="non" placeholder="NOM"><br>
+        <div class="blockformulaire">
+            <label for="nom">NOM</label>
+            <input type="text" id="nom" placeholder="NOM"><br>
             <label for="prenom">PRENOM</label>
             <input type="text" id="prenom" placeholder="PRENOM"><br>
-            <p class="DEPARTEMENT">
-                <!-- <h2>VOTRE DEPARTEMENT</h2> -->
 
-                <label>VOTRE DEPARTEMENT
-                <select name="Département" id="Département">
+            <fieldset class="departement">
+                <legend>DEPARTEMENT</legend>
+                <p class="DEPARTEMENT">
+                    <select multiple name="Département" id="Département">
                 <option value="JUPITER">JUPITER</option>
                 <option value="AISNE">AISNE</option>
                 <option value="CORSE">CORSE</option>
                 <option value="GIRONDE">GIRONDE</option>
                 <option value="MORBIAN">MORBIAN</option>
                 <option value="LANDES">LANDES</option>
-                <option value="LUNE">LUNE</option>
-            </select>
-        </label><br>
-            </p><br>
-            <div>
-                <label class="transport">CHOIX DU TRANSPORT :
-                    <label for="VELO">VELO</label>
-                <input type="checkbox" name="VELO" id="VELO">
-                <label for="TROTTINETTE">TROTTINETTE</label>
-                <input type="checkbox" name="TROTTINETTE" id="TROTTINETTE">
-                <label for="SKATE">SKATE</label>
-                <input type="checkbox" name="SKATE" id="SKATE">
-                <label for="SCOOT">SCOOT</label>
-                <input type="checkbox" name="SCOOT" id="SCOOT">
-                <label for="CAR">CAR</label>
-                <input type="checkbox" name="CAR" id="CAR">
-                <label for="CHEVAL">CHEVAL</label>
-                <input type="checkbox" name="CHEVAL" id="CHEVAL"><br>
+                <option value="LUNE">LUNE</option></select>
+                </p><br></fieldset><br>
 
-                <label class="divers">DIVERS :
-                    <label for="com">COMMENTAIRES</label>
-                <textarea id="com" placeholder="BALANCE TON COM !" name="COMMENTAIRES" cols="30" rows="10"></textarea>
-                </label>
-                </label>
+
+            <div class="formpart2">
+
+                <fieldset class="transport">
+                    <legend>
+                        CHOIX DU TRANSPORT
+                    </legend>
+                    <div class="choix">
+                        <label for="VELO">VELO</label>
+                        <input type="checkbox" name="VELO" id="VELO">
+                        <label for="TROTTINETTE">TROTTINETTE</label>
+                        <input type="checkbox" name="TROTTINETTE" id="TROTTINETTE">
+                        <label for="SKATE">SKATE</label>
+                        <input type="checkbox" name="SKATE" id="SKATE">
+                        <label for="SCOOT">SCOOT</label>
+                        <input type="checkbox" name="SCOOT" id="SCOOT">
+                        <label for="CAR">CAR</label>
+                        <input type="checkbox" name="CAR" id="CAR">
+                        <label for="CHEVAL">CHEVAL</label>
+                        <input type="checkbox" name="CHEVAL" id="CHEVAL"></div><br>
+
+                    <fieldset class="divers">
+                        <legend>DIVERS</legend>
+
+
+                        <textarea id="com" placeholder="BALANCE TON COM !" name="COMMENTAIRES" cols="15" rows="5"></textarea>
+                    </fieldset>
+                    <fieldset>
             </div><br>
 
-            <input type="submit" value="ENVOYER">
+            <input class="envoyer" type="submit" value="ENVOYER">
 
-        </div>
+    </form>
 
     </div><br>
 
