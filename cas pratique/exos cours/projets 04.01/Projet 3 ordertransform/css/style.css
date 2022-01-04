@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+body {
+    display: block;
+}
+
+.box1,
+.box2 {
+    width: 120px;
+    height: 120px;
+    border: solid black 3px;
+}
+
+.box1 {
+    transform: translate(100px) rotate(45deg);
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: green;
+    transform: translate(100px) rotate(45deg);
+    position: fixed;
+    top: 350px;
+}
+
+div.point1,
+div.point2 {
+    width: 30px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 50px;
+}
+
+.point1 {
+    position: fixed;
+    top: 30px;
+}

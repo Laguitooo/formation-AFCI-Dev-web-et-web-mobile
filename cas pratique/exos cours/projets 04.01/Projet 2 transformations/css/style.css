@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.paragraphe {
+    width: 600px;
+    height: 1000px;
+    margin: 20px;
+}
+
+p {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8, 190, 166);
+    border: solid black 3px;
+}
+
+.p1 {
+    transform: rotate(45deg);
+}
+
+.p2 {
+    transform-origin: 0 0;
+    transform: rotate(45deg);
+}
+
+.p3 {
+    transform-origin: bottom right;
+    transition: 1s;
+    transform: rotate(45deg);
+}

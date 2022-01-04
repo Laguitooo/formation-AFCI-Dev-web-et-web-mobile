@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    width: 200px;
+    height: 20px;
+    margin-top: 100px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border: solid blue;
+    border-radius: 10px;
+    background-color: rgb(31, 173, 238);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    /* -------------------------------------------------------------------------- */
+    /*                      réaliser une rotation post hover                      */
+    /* -------------------------------------------------------------------------- */
+    /* Dés l'entrée sur le site la rotation s'est activé et se désactive, elle se réactive post hover */
+    transform: rotate(1080deg);
+    transition: all 1s;
+    transition-delay: 1s;
+}
+
+button:hover {
+    background-color: turquoise;
+    border: solid black 3px;
+    border-radius: 30px;
+    transform: rotate(0);
+    transition: 0s;
+}
