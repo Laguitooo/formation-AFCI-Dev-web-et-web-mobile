@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.touch {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+}
+
+button {
+    background-color: turquoise;
+    border: solid black 3px;
+}

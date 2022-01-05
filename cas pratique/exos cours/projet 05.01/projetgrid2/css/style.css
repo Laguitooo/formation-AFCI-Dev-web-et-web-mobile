@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    display: grid;
+    gap: 50px;
+    height: 100vh;
+    /* each box is 200px by 200px */
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px;
+    /* change value to experiment */
+    justify-items: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+[class^="box-"]{
+    display: grid;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid black 3px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 30px;
+}

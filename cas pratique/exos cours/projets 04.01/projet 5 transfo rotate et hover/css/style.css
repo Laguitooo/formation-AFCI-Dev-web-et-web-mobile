@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloc1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center ;
+}
+.bloc1 p{
+    width: 50px ;
+    height: 50px;
+    border: solid black 3px;
+    background-color: aqua;
+    
+}
+
