@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO.JS</title>
+
+</head>
+
+<body>
+
+    <script>
+        for (let x = 1; x <= 100; x++) {
+            let style = "";
+
+            if (x % 2 === 0) {
+                console.log("compteur : pair");
+                // document.write(`<p style="color : yellow"><strong>`+ x +"</strong>");
+                style = "color:yellow;"
+
+            }
+            if (x % 11 === 0) {
+                console.log("compteur : " + "multiple de 11");
+                // document.write(`<p style="background-color : green; color: white">` + x +"<br>");
+                style = style + "background-color: green; color: white;"
+            }
+            if (x % 5 === 0) {
+                console.log("compteur : " + "multiple de 5");
+                // document.write(`<p style=" color : red">`+ x +"<br>");
+                style = style + "color: red;"
+            }
+            if (x % 17 === 0) {
+                console.log("compteur : " + "multiple de 17");
+                // document.write("BOOOOO!"+ x +"<br>");
+            }
+            document.write("<p style='" + style + "'> " + x + " </p>");
+
+
+        }
+    </script>
+</body>
+
+</html>

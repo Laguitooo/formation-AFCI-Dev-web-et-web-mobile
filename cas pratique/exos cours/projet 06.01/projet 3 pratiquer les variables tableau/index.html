@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO.JS</title>
+
+</head>
+
+<body>
+
+    <script>
+        //    // LES TABLEAUX//
+        //    let tab =["5","8","45","54"];
+        //    tab.forEach(elts=>{
+        //        document.write(elts  + "<br>")
+        //    });
+
+        //    // LES OBJETS //
+
+        //    let obj= {
+        //        name : "Didier",
+        //        prenom: "Rolland",
+        //        age: "34"
+        //    };
+        //    for (elts in obj) {
+        //        document.write(obj[elts] + "<br>");
+        //        document.write(obj[elts] + "<br>");
+        //    }
+
+        //    let monAge =2;
+        //    Const monage =2;
+
+
+        function sapinH(num, motif) {
+            let i, j, k;
+            k = num - 1;
+            for (i = 1; i <= num; i++) {
+                for (j = 1; j <= k; j++) {
+                    document.write("");
+                }
+                for (j = 1; j <= 2 * i - 1; j++) {
+                    document.write(motif);
+                }
+                document.write("<br>");
+                k--;
+            }
+
+        }
+        sapinH(40, "*")
+    </script>
+</body>
+
+</html>
