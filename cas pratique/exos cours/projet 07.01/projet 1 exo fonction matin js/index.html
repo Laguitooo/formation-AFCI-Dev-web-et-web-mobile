@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fonctionexomatin</title>
+
+</head>
+
+<body>
+
+    <script>
+        function cali(x, y, op) {
+            if (op === "+") {
+                let resultat = x + y;
+                document.write("reponse : " + resultat);
+            } else if (op === "-") {
+                let resultat = x - y;
+                document.write("reponse : " + resultat);
+
+            } else if (op === "/") {
+                if (y === 0) {
+                    document.write("division impossible");
+                } else {
+                    let resultat = x / y;
+                    document.write("reponse : " + resultat);
+                }
+
+            } else if (op === "*") {
+                let resultat = x * y;
+                document.write("reponse" + resultat);
+            }
+
+
+
+
+
+        }
+
+        let premierElement = parseInt(prompt("Entrez premier chiffre"));
+        console.log(typeof(premierElement));
+        let segondElement = parseInt(prompt("Entrez deuxieme chiffre"));
+        let opElement = prompt("Entrez opérateur de calcul");
+
+        cali(premierElement, segondElement, opElement);
+    </script>
+</body>
+
+</html>
