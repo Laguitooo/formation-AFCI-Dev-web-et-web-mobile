@@ -64,22 +64,36 @@
 
 /* -------------------------------------------------------------------------- */
 /*                                     /EXEMPLE TABLEAUX ENCORE/                                     */
+// /* -------------------------------------------------------------------------- */
+// const list = [3, 61, 72, 101, 10, 23, 31, 45, 7, 9];
+// const list2 = [];
+
+
+// list.forEach((test, index) => {
+//     if (test % 2 === 0) {
+//         document.write("_" + test)
+//     } else {
+//         (list2.push(test));
+//     }
+// });
+
+// document.write("<br>" + "<br>")
+
+// list2.forEach((test, index) => {
+//     document.write("_" + test)
+//     console.log(test)
+// });
+
+
 /* -------------------------------------------------------------------------- */
-const list = [3, 61, 72, 101, 10, 23, 31, 45, 7, 9];
-const list2 = [];
+/*                                     /Nouveau tableau/                                     */
+/* -------------------------------------------------------------------------- */
 
 
-list.forEach((test, index) => {
-    if (test % 2 === 0) {
-        document.write("_" + test)
-    } else {
-        (list2.push(test));
-    }
-});
+const tab = [1, 8, 3, 5, 12, 9, 11, 4, 15, 16];
 
-document.write("<br>" + "<br>")
+tab.forEach((item, index) => {
+    document.write("_" + item)
 
-list2.forEach((test, index) => {
-    document.write("_" + test)
-    console.log(test)
-});
+})
+const tabSorted = tab.sort();
