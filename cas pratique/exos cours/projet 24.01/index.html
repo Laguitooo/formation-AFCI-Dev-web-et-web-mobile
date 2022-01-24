@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURS DU 24 JANVIER JAVASCRIPT</title>
+    <link rel="stylesheet" id="saison" href="/projet 24.01/css/styleété.css">
+</head>
+
+<body>
+    <h1>
+        COURS DU 24 JANVIER JAVASCRIPT bouton dynamique !
+    </h1>
+    <div id="demo">
+        <button id="ajout" onclick="btnAjout()">AJOUTER</button>
+
+    </div>
+    <div id="sup">
+        <!-- bouton supprimer -->
+    </div>
+
+    <div id="btn">
+        <!-- ajouter un bouton -->
+    </div>
+    <br><br>
+
+    <!-- CHANGEMENT DE SAISON -->
+
+    <button id="cssété" onclick="document.getElementById('saison').href='/projet 24.01/css/styleété.css'">ETE</button>
+    <button id="csshiver" onclick="document.getElementById('saison').href='/projet 24.01/css/stylehiver.css'">HIVER</button>
+
+
+    <script>
+        function btnAjout() {
+            document.getElementById("btn").innerHTML = `<button id="btnsup">SALUT</button>`;
+            document.getElementById("ajout").remove();
+            document.getElementById("sup").innerHTML = `<button id="deleteb" onclick="deleteBtn()">SUPPRIMER</button>`;
+        }
+
+        function deleteBtn() {
+            document.getElementById("btnsup").remove();
+            document.getElementById("demo").innerHTML = `<button id="ajout" onclick= "btnAjout()">AJOUTER</button>`;
+            document.getElementById("deleteb").remove();
+        }
+    </script>
+
+
+</body>
+
+</html>
