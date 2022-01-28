@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECETTE DU 25.01 javascript dom</title>
+</head>
+
+<body>
+    <h1>
+        RECETTE DU 25.01 javascript dom
+    </h1>
+    <br><br>
+
+    <div id="infosrecette">
+        <label for="nomrecette">NOM DE LA RECETTE : </label><input id="nomrecette" type="text" placeholder="Nom de la recette">
+        <br><br>
+        <label for="nombrepers">NOMBRE DE PERSONNE : </label><input id="nombrepers" type="number" placeholder="Nbre de personne">
+        <br><br>
+        <label for="temperature">C ° : </label><input id="temperature" type="number" placeholder="Température">
+        <br><br>
+        <label for="temps">MIN : </label><input id="temps" type="number" placeholder="Temps de préparation">
+    </div>
+    <br><br>
+    <div id="divajouter">
+        <label for="ajoutingredient">Ajouter un ingrédient : </label>
+        <button id="ajoutingredient" onclick="ajoutIngredient()"> + </button>
+
+        <br><br>
+
+    </div>
+    <br><br>
+    <div id="ingredientetquantite">
+
+        <!-- EMPLACEMENT BOUTON AJOUTER ET SUPPRIMER INGREDIENT-->
+        <br>
+    </div>
+    <br><br>
+    <div id="listedesrecettes">
+        <!-- <button id="showrecette" onclick="showRecette()">AFFICHER LA RECETTE</button> -->
+    </div>
+    <br>
+    <h2>
+        <fieldset id="legende"> *** MES RECETTES *** <br><select id="Selectrecettes" onclick="ajoutRecetteSelect()"></select></fieldset>
+    </h2>
+
+    <br><br>
+
+
+    <script src="/projet  java dom 25.01/javascript/feuille recette.js"></script>
+</body>
+
+</html>
