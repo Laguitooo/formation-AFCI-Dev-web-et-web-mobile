@@ -10,6 +10,7 @@
 // input id = "ingredient"
 // type = "text"
 // placeholder = "Ingrédients" / >
+
 //     <
 //     label id = "quant"
 // for = "quantite" > GRAMMES: < /label> <
