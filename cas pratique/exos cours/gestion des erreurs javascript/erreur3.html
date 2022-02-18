@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+<body>
+    <script>
+        function div() {
+            let x = prompt('Entrez un premier nombre (numérateur)');
+            let y = prompt('Entrez un deuxième nombre (dénominateur)');
+
+            if (isNaN(x) || isNaN(y) || x == '' || y == '') {
+                throw new Error('Merci de rentrer deux nombres');
+            } else if (y == 0) {
+                throw new Error('Division par 0 impossible')
+            } else {
+                alert(x / y);
+            }
+        }
+
+        try {
+            div();
+        } catch (err) {
+            alert(err.message);
+        }
+    </script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d6b3e9e3cfd3a75',m:'BVHGb0nTuoNdhDdq49bkU7pV91euLChhngxeDIJ.PO8-1643719188-0-AWCmjauYJDtygQ3zeUeY79wtKKg82CMFYkOFxjYZQMtdb4PUwy+nR/YiT3kbrqOLqVq3/f9LWRiQwmvtljNaNKXutXLLDlK/GJpU1W8Qg3zX45M9nRURGUOdsLROc6O9p62Tk9PmxueL8GgYmO8tePxQA9hlhYxEGYH0e3MlgrxzQT0EqUUr65mD9dNhgl+VzA==',s:[0x5647a12d67,0x93deb2aba6],}})();</script></body>
+
+</html>

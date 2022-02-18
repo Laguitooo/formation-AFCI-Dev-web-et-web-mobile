@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Righteous&family=Roboto:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: rgb(213, 224, 223);
+}
+
+h2,
+h3,
+h4,
+.nav-item,
+#transition,
+footer {
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Righteous', cursive;
+    text-shadow: -3px 3px 2px rgb(181, 233, 240);
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Righteous', cursive;
+}
+
+h4 {
+    font-size: 1em;
+    font-family: 'Righteous', cursive;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logonavbar {
+    width: 50px;
+    height: 40px;
+}
+
+
+/* ********************  HEADER ***********  */
+
+header {
+    background: url(/image/colorsmokemain.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0px 0px 30px 30px;
+}
+
+
+/*************  NAVBAR  ****************/
+
+.collapse {
+    margin-left: 3%;
+}
+
+.nav-item {
+    font-family: 'Righteous', cursive;
+    font-size: 1.3em;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    /* border-radius: 0px 0px 10px 10px; */
+    background-color: lightblue !important;
+}
+
+#navbarSupportedContent {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a.nav-link.dwwm {
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Monoton', cursive;
+    padding: 200px 0 0 20%;
+    text-shadow: -3px 3px 2px rgb(181, 233, 240);
+    animation: titre ease 3.5s;
+}
+
+@keyframes titre {
+    0% {
+        opacity: 0;
+        transform: translateY(-350px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+/*******  caroussel  ****/
+
+#carouselExample {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item h5 {
+    font-size: 300%;
+    font-family: 'Righteous', cursive;
+    text-shadow: -3px 3px 2px rgb(181, 233, 240);
+    margin-bottom: 30%;
+}
+
+.carousel-item p {
+    font-size: 150%;
+}
+
+
+/********************LEFT PART*****************/
+
+#leftpart {
+    background-color: rgb(234, 211, 243);
+    border-radius: 30px;
+    padding: 25px;
+}
+
+
+/***********************  Basket  *****************/
+
+.containerbasket {
+    width: 100%;
+    padding: 20px 0;
+    animation: slide 6s infinite linear;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-2%);
+    }
+    50% {
+        transform: translateX(90%);
+    }
+    100% {
+        transform: translateX(-3%);
+    }
+}
+
+.basket {
+    width: 150px;
+    height: 150px;
+}
+
+.basketimg {
+    width: 140px;
+    height: 140px;
+    -webkit-animation: basket 2s linear infinite;
+    -moz-animation: basket 2s linear infinite;
+    -ms-animation: basket 2s linear infinite;
+    -o-animation: basket 2s linear infinite;
+    animation: basket 2s linear infinite;
+}
+
+@-webkit-keyframes basket
+/* Safari and Chrome */
+
+{
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes basket {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+/****************** NEWS LETTER  ***************/
+
+#newsletter {
+    background-image: url(/image/Waterdropcolor.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 30px 30px 0 0;
+    min-width: 370px;
+    margin: 0 auto;
+    margin bottom: 70px;
+}
+
+#newsletter h4 {
+    /* opacity: none !important; */
+    margin-top: 15px;
+    padding: 100px 0 20px 0;
+    font-size: 2em;
+    text-shadow: -3px 3px 2px white;
+}
+
+#newsletter .input-group {
+    width: 40%;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+#newsletter .form-control {
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#newsletter .btn-secondary {
+    border-radius: 30px;
+    margin: 10px;
+}
+
+footer {
+    /* background-image: url(/image/colorsmokemain.jpg); */
+    background-size: cover;
+    background-color: lightblue !important;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    /* border-radius: 10px 10px 0px 0px; */
+}
+
+footer img {
+    width: 50px;
+    height: 40px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projet13janvierjs</title>
+
+</head>
+
+<body>
+    <h1>
+        Projet exos Javascript initiation DOM 13 janvier
+    </h1>
+    <h2>
+        EXO INPUT
+    </h2>
+
+    <input class="fnbr" type="number" placeholder="First number">
+    <input class="snbr" type="number" placeholder="Second number">
+    <br>
+    <br>
+    <input class="goal" type="number" placeholder="Goal waiting">
+
+    <button onclick="getValue ()">
+      SOMME
+    </button> */
+    <script>
+        function getValue() {
+            let x = parseInt(document.getElementsByClassName('fnbr')[0].value);
+            let y = parseInt(document.getElementsByClassName('snbr')[0].value);
+            console.log(typeof(x));
+            somme(x, y);
+        }
+
+        function somme(x, y) {
+            console.log(typeof(x));
+            let coco = x + y;
+
+            console.log(parseInt(coco));
+
+            document.getElementsByClassName('goal')[0].value = coco;
+
+        }
+    </script> /*
+
+
+</body>
+
+</html>

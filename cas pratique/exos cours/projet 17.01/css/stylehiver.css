@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Philosopher:wght@700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    /* font-family: 'Dancing Script', curive; */
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-sizing: border-box;
+}
+
+a {
+    color: brown;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    color: skyblue;
+}
+
+li {
+    list-style: none;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+div.menu {
+    width: 70%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+div.saison {
+    width: 30%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a .saison {
+    border-color: solid white 3px;
+    border-radius: 10px;
+}
+
+div.part1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid white 10px;
+    border-radius: 10px;
+}
+
+div.blocg {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url("/projet 17.01/images/stationski.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.blocd {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-left: solid white 10px;
+}
+
+div.calculette {
+    width: 50%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: ;
+    align-items: center;
+    border: solid white 10px;
+    border-radius: 10px;
+}
+
+div.box1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+div.box2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+div.box3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+div.box4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+input {
+    display: flex;
+    justify-self: center;
+    border: solid white 5px;
+    border-radius: 30px;
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+    font-size: 70%;
+    text-align: center;
+}
+
+button {
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    border: solid white 3px;
+    border-radius: 30px;
+    color: brown;
+    font-size: 150%;
+    text-align: center;
+}
+
+button:hover {
+    width: 40%;
+    height: 60%;
+    background-color: whitesmoke;
+    border: solid skyblue 3px;
+    border-radius: 30px;
+    color: skyblue;
+}
+
+#nbr1 {
+    width: 40%;
+    height: 60%;
+}
+
+#nbr2 {
+    width: 40%;
+    height: 60%;
+}
+
+#total {
+    width: 80%;
+    height: 60%;
+}
+
+#{
+
+}
+div.part2 {
+    width: 100%;
+    height: 250px;
+    border: solid white 10px;
+    border-radius: 10px;
+}
+#ascenceur {
+    width: 100%;
+    height: 100%;
+}
+div.part3 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imgrondg {
+    width: 30%;
+    height: 80%;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: space-around;
+    background-image: url("/projet 17.01/images/luge.jpg");
+    background-size: cover;
+}
+.imgrondc {
+    width: 30%;
+    height: 80%;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: space-around;
+    background-image: url("/projet 17.01/images/chalet.jpg");
+    background-size: cover;
+}
+.imgrondd {
+    width: 30%;
+    height: 80%;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: space-around;
+    background-image: url("/projet 17.01/images/freeride.jpg");
+    background-size: cover;
+}
+.part4 {
+    width: 100%;
+    height: 500px;
+    border: solid white 10px;
+    border-radius: 10px;
+}
+.part5 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+a.mdn {
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    border-radius: 30px;
+    border: solid white 3px;
+    color: brown;
+    font-size: 140%;
+    text-align: center;
+}
+a.mdn:hover {
+    width: 40%;
+    height: 60%;
+    background-color: whitesmoke;
+    border: solid whitesmoke 3px;
+    border-radius: 30px;
+    color: skyblue;
+}
+a.opcr {
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    border: solid white 3px;
+    border-radius: 30px;
+    color: brown;
+    font-size: 150%;
+    text-align: center;
+}
+a.opcr:hover {
+    width: 40%;
+    height: 60%;
+    background-color: whitesmoke;
+    border: solid whitesmoke 3px;
+    border-radius: 30px;
+    color: skyblue;
+}
+a.google {
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    border: solid white 3px;
+    border-radius: 30px;
+    color: brown;
+    font-size: 150%;
+    text-align: center;
+}
+a.google:hover {
+    width: 40%;
+    height: 60%;
+    background-color: whitesmoke;
+    border: solid whitesmoke 3px;
+    border-radius: 30px;
+    color: skyblue;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+vidéo:https: //www.youtube.com/watch?v=Qp4MTXoHmew
